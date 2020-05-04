@@ -14,6 +14,7 @@ public class AfficheList extends TagSupport{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		System.out.println("Test2");
 		return EVAL_BODY_AGAIN;
 	}
