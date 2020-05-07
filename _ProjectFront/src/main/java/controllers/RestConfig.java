@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
 @ComponentScan("controllers")
-public class AppConfig {
+public class RestConfig {
 	@Bean
 	RestTemplate restTemplate() {
 		System.out.println("Creation du bean restTemplate...");
